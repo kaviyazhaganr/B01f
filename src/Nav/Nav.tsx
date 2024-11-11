@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './nav.css'
 import insta from '/Assigner Project/assigner-p/public/insta.png'
 import img2 from '/Assigner Project/assigner-p/public/Img (2).png'

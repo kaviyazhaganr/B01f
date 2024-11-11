@@ -1,6 +1,5 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
+
 import Nav from './Nav/Nav'
 import Menu from './Menu/Menu'
 import Banner from './assets/Banner-img/Banner'
@@ -9,7 +8,7 @@ import Banner from './assets/Banner-img/Banner'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
