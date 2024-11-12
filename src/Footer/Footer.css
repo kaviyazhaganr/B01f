@@ -1,0 +1,8 @@
+.footer{
+    background-image: url(/public/footer-img.png);
+}
+
+.footer-flex-1{
+    display: flex;
+    justify-content: space-evenly;
+}
