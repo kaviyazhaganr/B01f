@@ -1,12 +1,14 @@
 .learning{
 
   background-image: url(/public/Rectangle98.png);
-  height: 500px;
+  height: 640px;
   border-radius: 4px;
   width: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  position: relative;
+  
   
   
 }
@@ -15,13 +17,13 @@
 
    
     width: 740px;
-    padding-top: 60px;
-    margin-left: 80px;
+    padding-top: 80px;
+    margin-left: 170px;
     height: 200px;
-    border: 1px solid red;
-    line-height: 60px;
+    /* border: 1px solid red; */
+    line-height: 70px;
     font-family: Cormorant;
-    font-size: 23px;
+    font-size: 30px;
    
 }
 
@@ -39,5 +41,76 @@
 .learn-1-h2{
 
     color: #A259FF;
+   margin-bottom: 10px;
+
+}
+
+.learn-2{
+
+    width: 740px;
+    /* border: 1px solid black; */
+    margin-left: 170px;
+    font-size: 23px;
+    line-height: 40px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    
+}
+
+
+.learn-2-p{
+    text-align: justify;
+   
+}
+
+.learn-3{
+
+    width: 253px;
+    height: 49px;
+    border-radius: 15px;
+    /* border: 1px solid black; */
+    margin-left: 190px;
+    text-align: center;
+    padding-top: 22px;
+    background-color: #5A156B;
+    margin-top: 40px;
+    
+
+}
+
+.learn-anchor{
+
+    /* border: 1px solid black; */
+    padding: 0 40px; 
+    font-size: 23px;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    
+   
+}
+
+.learn-4{
+
+    position: absolute;
+    right: 0px;
+    bottom: 300px;
+    padding-right: 100px;
+    z-index: 1;
+   
+   
+}
+
+.learn-5{
+
+    position: absolute;
+    right: 0%;
+    bottom: 1px;
+    top: 210px;
+    left: 910px;
+    padding-right: 200px;
+    /* z-index: -1; */
+    opacity: 2;
+    transform-origin: top;
 
 }
