@@ -1,0 +1,43 @@
+.learning{
+
+  background-image: url(/public/Rectangle98.png);
+  height: 500px;
+  border-radius: 4px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  
+}
+
+.learn-1{
+
+   
+    width: 740px;
+    padding-top: 60px;
+    margin-left: 80px;
+    height: 200px;
+    border: 1px solid red;
+    line-height: 60px;
+    font-family: Cormorant;
+    font-size: 23px;
+   
+}
+
+.learn-1-h{
+
+    color: #9F0D76;
+    
+}
+.learn-1-h1{
+    color: #4C0C5C;
+
+
+}
+
+.learn-1-h2{
+
+    color: #A259FF;
+
+}

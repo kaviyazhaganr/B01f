@@ -45,7 +45,7 @@ const Studentcount = () => {
 
      </div>
 
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum reiciendis distinctio perferendis asperiores expedita rem doloremque quas ut beatae repudiandae at dolor nobis, modi officia adipisci, corrupti libero natus maxime?</p>
+     
  
    
       
