@@ -103,3 +103,36 @@
   
      justify-content: space-evenly;
 }
+
+@media screen and (max-width: 600px) {
+
+
+    .footer-flex-1{
+
+        flex-basis: 80%;
+        margin-left: 9px;
+    } 
+    
+    .footer-flex-2{
+
+        /* border: 1px solid forestgreen; */
+        height: auto;
+       margin-top: 80px;
+       margin-right: 10px;
+       margin-bottom: 20px;
+    
+    }
+
+    .footer-flex-2-a-1{
+
+        text-decoration: none;
+        /* border: 1px solid pink; */
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #583781;
+        color: white;
+       
+    
+    }
+    
+}

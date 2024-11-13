@@ -172,17 +172,16 @@
     .learn-anchor {
 
         /* border: 1px solid black; */
-      
-        font-size: 15px;
-        text-decoration: none;
-        padding-inline: 50px;
-        /* padding-block: 10px; */
-      
+
+        width: 85px;
+        height: 35px;
         text-align: center;
-        color: white;
-        border-radius: 15px;
-        background-color: #5A156B;
         
+        margin-right: 10px;
+        padding-top: 9px;
+        background-color: #5A156B;
+        border-radius: 15px;
+       font-size: 18px;
 
 
     }
