@@ -7,6 +7,15 @@
 
 }
 
+.Menu_flex{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid black; */
+}
 
 
 #menu{
@@ -66,9 +75,18 @@
     #Img-c{
 
         width: 599px;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         /* margin-left: 20px; */
-       
+      
+    }
+
+    .Menu_flex{
+
+        display: flex;
+        justify-content: space-between;
+       width: 550px;
+        /* border: 1px solid black; */
+        margin-left: 0%;
     }
      
     .img-l{
@@ -81,15 +99,15 @@
     .img-size{
         width: 140px;
         padding-top: 15px;
-        border: 1px solid black;
-        
+        /* border: 1px solid black;
+         */
     }
 
     .btn-menu{
 
         border-radius: 10px;
-       position: absolute;
-       right: 50px;
+       /* position: absolute;
+       right: 50px; */
 
     
         
@@ -103,6 +121,7 @@
 
         display: block;
         padding-top: 36px;
+       
     }
     
 }

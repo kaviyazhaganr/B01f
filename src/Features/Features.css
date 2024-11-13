@@ -50,3 +50,29 @@ margin-bottom: 20px;
     padding-top: 20px;
 
 }
+
+@media screen and (max-width: 600px) {
+
+    .features{
+
+        font-size: 25px;
+    }
+
+    .f-p{
+
+        font-size: 18px;
+    }
+  
+    .f-cont{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Four columns */
+        gap: 20px;
+            
+        }
+    
+    
+    .f-cont-1{
+        width: 239px;
+    
+    }
+}

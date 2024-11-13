@@ -1,21 +1,21 @@
-.learning{
+.learning {
 
-  background-image: url(/public/Rectangle98.png);
-  height: 640px;
-  border-radius: 4px;
-  width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-  
-  
-  
+    background-image: url(/public/Rectangle98.png);
+    height: 640px;
+    border-radius: 4px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+
+
 }
 
-.learn-1{
+.learn-1 {
 
-   
+
     width: 740px;
     padding-top: 80px;
     margin-left: 170px;
@@ -24,28 +24,29 @@
     line-height: 70px;
     font-family: Cormorant;
     font-size: 30px;
-   
+
 }
 
-.learn-1-h{
+.learn-1-h {
 
     color: #9F0D76;
-    
+
 }
-.learn-1-h1{
+
+.learn-1-h1 {
     color: #4C0C5C;
 
 
 }
 
-.learn-1-h2{
+.learn-1-h2 {
 
     color: #A259FF;
-   margin-bottom: 10px;
+    margin-bottom: 10px;
 
 }
 
-.learn-2{
+.learn-2 {
 
     width: 740px;
     /* border: 1px solid black; */
@@ -54,16 +55,16 @@
     line-height: 40px;
     margin-bottom: 20px;
     padding-top: 40px;
-    
+
 }
 
 
-.learn-2-p{
+.learn-2-p {
     text-align: justify;
-   
+
 }
 
-.learn-3{
+.learn-3 {
 
     width: 253px;
     height: 49px;
@@ -74,34 +75,34 @@
     padding-top: 22px;
     background-color: #5A156B;
     margin-top: 40px;
-    
+
 
 }
 
-.learn-anchor{
+.learn-anchor {
 
     /* border: 1px solid black; */
-    padding: 0 40px; 
+    padding: 0 40px;
     font-size: 23px;
     text-decoration: none;
     display: inline-block;
     color: white;
-    
-   
+
+
 }
 
-.learn-4{
+.learn-4 {
 
     position: absolute;
     right: 0px;
     bottom: 300px;
     padding-right: 100px;
     z-index: 1;
-   
-   
+
+
 }
 
-.learn-5{
+.learn-5 {
 
     position: absolute;
     right: 0%;
@@ -113,4 +114,111 @@
     opacity: 2;
     transform-origin: top;
 
+}
+
+.learn-2-p-full {
+    display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .learning {
+
+        width: 600px;
+        height: 280px;
+    }
+
+    .learn-1 {
+
+        width: 250px;
+        font-size: 10px;
+        line-height: 24px;
+        padding-top: 10px;
+        margin-left: 30px;
+        /* border: 1px solid red; */
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .learn-2 {
+
+        width: 250px;
+        /* border: 1px solid black; */
+        margin-left: 30px;
+        font-size: 15px;
+        line-height: 20px;
+        margin-bottom: 0px;
+        padding-top: 0px;
+
+    }
+
+    .learn-2-p {
+        display: none;
+    }
+
+    .learn-2-p-full {
+        display: block;
+    }
+
+    .learn-3 {
+
+        width: 0px;
+        height: 0px;
+        margin-left: 30px;
+        margin-top: 5px;
+    }
+
+    .learn-anchor {
+
+        /* border: 1px solid black; */
+      
+        font-size: 15px;
+        text-decoration: none;
+        padding-inline: 50px;
+        /* padding-block: 10px; */
+      
+        text-align: center;
+        color: white;
+        border-radius: 15px;
+        background-color: #5A156B;
+        
+
+
+    }
+
+    .learn-4 {
+
+        width: 200px;
+        right: 0px;
+        bottom: 120px;
+        padding-right: 200px;
+    }
+
+
+
+    .learn-4-img {
+        width: 400px;
+    }
+
+
+    .learn-5 {
+        width: 200px;
+        right: 0%;
+        bottom: 1px;
+        top: 90px;
+        left: 350px;
+        padding-right: 0px;
+        /* z-index: -1; */
+        opacity: 2;
+        transform-origin: top;
+        margin-right: 20px;
+    }
+
+    .learn-5-img {
+
+        width: 180px;
+        /* border: 1px solid red; */
+
+    }
 }

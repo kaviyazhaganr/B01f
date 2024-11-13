@@ -25,6 +25,10 @@ const Learning = () => {
            </p>
 
            <p className='learn-2-p'>translatum ad philosophos nostros esset.</p>
+
+           <p className='learn-2-p-full'>
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit.Audax negotium, dicerem impudens, nisi hoc institut translatum ad philosophos nostros esset.
+           </p>
         </div>
 
 
@@ -42,7 +46,7 @@ const Learning = () => {
 
         <div className='learn-5'>
 
-          <img src={image2} alt="" />
+          <img src={image2} alt="" className='learn-5-img' />
         </div>
 
 

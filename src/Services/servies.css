@@ -75,3 +75,56 @@
   .s-cont .s-cont-1:nth-child(14) {
     grid-column: 3;
   }
+
+
+  @media screen and (max-width: 600px) {
+
+    .servies{
+        
+        font-size: 25px;
+    }
+
+    .s-p{
+        font-size: 18px;
+    }
+
+    .s-cont{
+
+        display: grid;
+        margin-left: 0px;
+        margin-right: 0px;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    
+        padding-left: 15px;
+    }
+
+    .s-cont-1{
+        width: 140px;
+    }
+
+    .s-cont-1-p {
+
+        font-size: 15px;
+    }
+
+    /* .s-cont .s-cont-1:nth-child(13) {
+        grid-column:  2;
+        grid-row: 1;
+    
+      } */
+
+      .s-cont-1:nth-child(13) {
+        grid-column: 2;
+    }
+
+    .s-cont-1:nth-child(14) {
+        grid-column: 3;
+    }
+      
+      /* .s-cont .s-cont-1:nth-child(14) {
+        grid-column: 2 / 3;
+       
+      } */
+    
+  }

@@ -34,3 +34,19 @@
     color: black;
     font-weight: bold;
 }
+
+@media screen and (max-width: 600px) {
+
+    .faq{
+
+        font-size: 25px;
+    }
+
+
+  .faq-cont{
+
+    width: 500px;
+    margin-left: 30px;
+  }
+    
+}

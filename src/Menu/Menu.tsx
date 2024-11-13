@@ -15,36 +15,44 @@ const Menu = () => {
 
       <div id='Img-c'>
 
-        <div className='img-l'>
-          <img src={image} alt="" className='img-size' />
+        <div className="Menu_flex">
+
+
+
+          <div className='img-l'>
+            <img src={image} alt="" className='img-size' />
+          </div>
+
+          <div id='menu'>
+
+            <a href="" className='Line_none'>Home</a>
+            <a href="" className='Line_none'>About Us</a>
+            <a href="" className='Line_none'>Blog</a>
+            <a href="" className='Line_none'>Our Services</a>
+            <a href="" className='Line_none'>IELTS & PTE</a>
+            <a href="" className='Line_none'>Contact Us</a>
+
+          </div>
+
+          <div className="btn-menu">
+
+            <a href="" className='btn-menu-a'>Login</a>
+
+
+          </div>
+
         </div>
 
-        <div id='menu'>
+        <div className="mobile-menu">
 
-          <a href="" className='Line_none'>Home</a>
-          <a href="" className='Line_none'>About Us</a>
-          <a href="" className='Line_none'>Blog</a>
-          <a href="" className='Line_none'>Our Services</a>
-          <a href="" className='Line_none'>IELTS & PTE</a>
-          <a href="" className='Line_none'>Contact Us</a>
+        <img src={image1} alt="" />
 
-        </div>
-
-        <div className="btn-menu">
-
-          <a href="" className='btn-menu-a'>Login</a>
-
-
-        </div>
+      </div>
 
 
       </div>
 
-      <div className="mobile-menu">
-
-            <img src={image1} alt="" />
-
-          </div>
+      
     </>
   )
 }
