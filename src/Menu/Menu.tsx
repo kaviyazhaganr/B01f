@@ -2,41 +2,49 @@
 import image from '/Assigner Project/assigner-p/public/theASSignerlogo 2.png'
 import './Menu.css'
 
+import image1 from '/Assigner Project/assigner-p/public/Group399.png'
+
+
 
 
 const Menu = () => {
   return (
-   
+
 
     <>
-    
+
       <div id='Img-c'>
 
-          <div className='img-l'>
-            <img src= {image} alt="" />
-          </div>
-         
-         <div id='menu'>
+        <div className='img-l'>
+          <img src={image} alt="" className='img-size' />
+        </div>
 
-            <a href="" className='Line_none'>Home</a>
-            <a href="" className='Line_none'>About Us</a>
-            <a href="" className='Line_none'>Blog</a>
-            <a href="" className='Line_none'>Our Services</a>
-            <a href="" className='Line_none'>IELTS & PTE</a>
-            <a href="" className='Line_none'>Contact Us</a>
+        <div id='menu'>
 
-         </div>
+          <a href="" className='Line_none'>Home</a>
+          <a href="" className='Line_none'>About Us</a>
+          <a href="" className='Line_none'>Blog</a>
+          <a href="" className='Line_none'>Our Services</a>
+          <a href="" className='Line_none'>IELTS & PTE</a>
+          <a href="" className='Line_none'>Contact Us</a>
 
-         <div className="btn-menu">
+        </div>
 
-            <a href="" className='btn-menu-a'>Login</a>
+        <div className="btn-menu">
 
-        
-         </div>
-        
-    
+          <a href="" className='btn-menu-a'>Login</a>
+
+
+        </div>
+
 
       </div>
+
+      <div className="mobile-menu">
+
+            <img src={image1} alt="" />
+
+          </div>
     </>
   )
 }

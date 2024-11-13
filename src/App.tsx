@@ -15,24 +15,39 @@ import Footer from './Footer/Footer'
 
 
 function App() {
-  
+
 
   return (
     <>
-      
+
+
+
+
       <Nav />
       <Menu />
       <Banner />
-      <Studentcount/>  
-      <Learning /> 
+      <Studentcount />
+      <Learning />
 
       <Features />
       <Servies />
       <Advantage />
       <Faq />
       <Footer />
-      
-       </>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </>
 
   )
 }

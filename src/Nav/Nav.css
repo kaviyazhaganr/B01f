@@ -27,3 +27,13 @@
   padding-right: 7px;
     
 }
+
+@media screen and (max-width: 600px) {
+
+  #nav{
+
+    display: none;
+  }
+
+
+}

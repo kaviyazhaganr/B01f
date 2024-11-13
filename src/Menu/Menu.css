@@ -53,3 +53,57 @@
    
 }
 
+.mobile-menu{
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    #menu{
+        display: none;
+    }
+
+    #Img-c{
+
+        width: 599px;
+        border: 1px solid black;
+        /* margin-left: 20px; */
+       
+    }
+     
+    .img-l{
+
+        
+        /* border: 1px solid black; */
+       
+    }
+
+    .img-size{
+        width: 140px;
+        padding-top: 15px;
+        border: 1px solid black;
+        
+    }
+
+    .btn-menu{
+
+        border-radius: 10px;
+       position: absolute;
+       right: 50px;
+
+    
+        
+        
+    }
+
+  
+   
+
+    .mobile-menu{
+
+        display: block;
+        padding-top: 36px;
+    }
+    
+}
+

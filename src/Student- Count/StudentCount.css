@@ -46,7 +46,7 @@
 
 .S-count-img-border{
 
-    width: 1440px;
+    width: 1400px;
     height: 145px;
     
       margin: auto;
@@ -78,5 +78,5 @@
 .S-count-pos1{
     position: absolute;
     right: 0px;
-    bottom: -190px;
+    bottom: -100px;
 }
