@@ -10,6 +10,17 @@ import { faAngleDown} from '@fortawesome/free-solid-svg-icons'
 import './Faq.css'
 
 
+const FaqAccordion = () => {
+    return (
+        <div>
+
+        </div>
+    )
+
+    
+};
+
+
 
 const Faq = () => {
     return (
@@ -27,10 +38,10 @@ const Faq = () => {
 
                 <p className='faq-cont-p'>What services are available on our website?</p>
 
-              
-
                 
                 <FontAwesomeIcon icon={faAngleDown} />
+
+               
                
 
             </div>
@@ -63,6 +74,11 @@ const Faq = () => {
 
             </div>
 
+            </div>
+
+
+            <div className='App'>
+               <FaqAccordion />
             </div>
         </>
     )
