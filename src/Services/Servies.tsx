@@ -62,9 +62,10 @@ const Servies = () => {
 
                 <div className="s-cont">
 
+
                     <div className="s-cont-1">
 
-                        <img src={image1} alt="" />
+                        <img src={image1} alt="" className='s-cont-1-img-big' />
                         <div className='s-count-1-sub'>
                             <h6 className='s-cont-1-p'>Assignment</h6>
                             <img src={image1_sub} alt="" className='s-cont-1-img' />
@@ -76,7 +77,7 @@ const Servies = () => {
                     </div>
                     <div className="s-cont-1">
 
-                        <img src={image2} alt="" />
+                        <img src={image2} alt="" className='s-cont-1-img-big' />
                         <div className='s-count-1-sub'>
                             <h6 className='s-cont-1-p'>Dissertation</h6>
                             <img src={image2_sub} alt="" className='s-cont-1-img' />
@@ -87,7 +88,7 @@ const Servies = () => {
                     </div>
                     <div className="s-cont-1">
 
-                        <img src={image3} alt="" />
+                        <img src={image3} alt="" className='s-cont-1-img-big'/>
                         <div className='s-count-1-sub'>
                             <h6 className='s-cont-1-p'>Course work</h6>
                             <img src={image3_sub} alt="" className='s-cont-1-img' />
@@ -98,7 +99,7 @@ const Servies = () => {
                     </div>
                     <div className="s-cont-1">
 
-                        <img src={image4} alt="" />
+                        <img src={image4} alt="" className='s-cont-1-img-big' />
                         <div className='s-count-1-sub'>
                             <h6 className='s-cont-1-p'>Thesis</h6>
                             <img src={image4_sub} alt="" className='s-cont-1-img' />
@@ -116,7 +117,7 @@ const Servies = () => {
 
                     <div className="s-cont-1">
 
-                        <img src={image5} alt="" />
+                        <img src={image5} alt="" className='s-cont-1-img-big'  />
                         <div className='s-count-1-sub'>
                             <h6 className='s-cont-1-p'>Essay</h6>
                             <img src={image5_sub} alt="" className='s-cont-1-img' />
@@ -127,7 +128,7 @@ const Servies = () => {
                     </div>
                     <div className="s-cont-1">
 
-                        <img src={image6} alt="" />
+                        <img src={image6} alt="" className='s-cont-1-img-big'  />
                         <div className='s-count-1-sub'>
                             <h6 className='s-cont-1-p'>Research Paper</h6>
                             <img src={image6_sub} alt="" className='s-cont-1-img' />
@@ -138,7 +139,7 @@ const Servies = () => {
                     </div>
                     <div className="s-cont-1">
 
-                        <img src={image7} alt="" />
+                        <img src={image7} alt="" className='s-cont-1-img-big'  />
                         <div className='s-count-1-sub'>
                             <h6 className='s-cont-1-p'>Power Point Presentation</h6>
                             <img src={image7_sub} alt="" className='s-cont-1-img' />
@@ -149,7 +150,7 @@ const Servies = () => {
                     </div>
                     <div className="s-cont-1">
 
-                        <img src={image8} alt="" />
+                        <img src={image8} alt="" className='s-cont-1-img-big'  />
                         <div className='s-count-1-sub'>
                             <h6 className='s-cont-1-p'>Programming</h6>
                             <img src={image8_sub} alt="" className='s-cont-1-img' />
@@ -167,7 +168,7 @@ const Servies = () => {
 
                     <div className="s-cont-1">
 
-                        <img src={image9} alt="" />
+                        <img src={image9} alt="" className='s-cont-1-img-big'  />
                         <div className='s-count-1-sub'>
                             <h6 className='s-cont-1-p'>Paper Writing</h6>
                             <img src={image9_sub} alt="" className='s-cont-1-img' />
@@ -178,7 +179,7 @@ const Servies = () => {
                     </div>
                     <div className="s-cont-1">
 
-                        <img src={image10} alt="" />
+                        <img src={image10} alt="" className='s-cont-1-img-big'  />
                         <div className='s-count-1-sub'>
                             <h6 className='s-cont-1-p'>Case Study</h6>
                             <img src={image10_sub} alt="" className='s-cont-1-img' />
@@ -189,7 +190,7 @@ const Servies = () => {
                     </div>
                     <div className="s-cont-1">
 
-                        <img src={image11} alt="" />
+                        <img src={image11} alt="" className='s-cont-1-img-big'  />
                         <div className='s-count-1-sub'>
                             <h6 className='s-cont-1-p'>Speech Writing</h6>
                             <img src={image11_sub} alt="" className='s-cont-1-img' />
@@ -200,7 +201,7 @@ const Servies = () => {
                     </div>
                     <div className="s-cont-1">
 
-                        <img src={image12} alt="" />
+                        <img src={image12} alt="" className='s-cont-1-img-big'  />
                         <div className='s-count-1-sub'>
                             <h6 className='s-cont-1-p'>Term Paper Writing</h6>
                             <img src={image12_sub} alt="" className='s-cont-1-img' />
@@ -217,7 +218,7 @@ const Servies = () => {
 
                     <div className="s-cont-1">
 
-                        <img src={image13} alt="" />
+                        <img src={image13} alt="" className='s-cont-1-img-big'  />
                         <div className='s-count-1-sub'>
                             <h6 className='s-cont-1-p'>Cover Letter Writing</h6>
                             <img src={image13_sub} alt="" className='s-cont-1-img' />
@@ -228,7 +229,7 @@ const Servies = () => {
                     </div>
                     <div className="s-cont-1">
 
-                        <img src={image14} alt="" />
+                        <img src={image14} alt="" className='s-cont-1-img-big'  />
                         <div className='s-count-1-sub'>
                             <h6 className='s-cont-1-p'>Resume Maker</h6>
                             <img src={image14_sub} alt="" className='s-cont-1-img' />

@@ -38,6 +38,16 @@ margin-bottom: 20px;
     -0px 5px 5px #f1ebeb,  /* Right shadow */
     0 5px 10px #f1ebeb;
 
+    transition: all 0.3s ease;
+
+}
+
+.f-cont-1:hover{
+
+    background-color: #EE481447;
+    /* width: 300px; */
+    transform: rotate(360deg);
+   
 }
 
 .f-count-1-p{

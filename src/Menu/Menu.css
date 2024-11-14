@@ -40,12 +40,18 @@
     padding:10px ;
 }
 
+.Line_none:hover{
+
+    color: red;
+  
+}
+
 .btn-menu{
 
     /* border: 1px solid black; */
-    background-color:  #583781;
-    width: 135px;
-    height: 35px;
+    /* background-color:  #583781; */
+    /* width: 135px;
+    height: 35px; */
     text-align: center; 
     margin-top: 25px;
     margin-left: 10px;
@@ -56,10 +62,23 @@
 
 }
 
+
+
 .btn-menu-a{
     color: white;
     text-decoration: none;
+    /* border: 1px solid red; */
+    padding-inline: 47px;
+    padding-block: 12px;
+    background-color:  #583781;
    
+}
+
+.btn-menu-a:hover{
+
+    color: black;
+    background-color: lightsalmon;
+    
 }
 
 .mobile-menu{

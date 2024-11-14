@@ -38,7 +38,7 @@ const Studentcount = () => {
           <img src={image1} alt="" className="S-count-img-2"/>
           <img src={image2} alt="" className="S-count-img-3"/> */}
 
-          <div>
+          <div className="st-size">
             <h1>350+</h1>
             <div className="s-count-image">
             <img src={img} alt="" />
@@ -46,7 +46,7 @@ const Studentcount = () => {
             </div>
            
           </div>
-          <div>
+          <div className="st-size">
             <h1>115+</h1>
             <div className="s-count-image">
             <img src={img1} alt="" />
@@ -54,7 +54,7 @@ const Studentcount = () => {
             </div>
             
           </div>
-          <div>
+          <div className="st-size">
             <h1>700+</h1>
             <div className="s-count-image">
             <img src={img2} alt="" />

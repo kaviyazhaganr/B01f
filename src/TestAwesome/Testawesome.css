@@ -1,0 +1,42 @@
+.Awesome-comt{
+
+    text-align: center;
+
+ 
+    
+}
+
+.Awesome-comt h1{
+
+    padding-bottom: 5px;
+
+
+}
+
+.awse-cart-flex{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+.awse-cart{
+
+    max-width: 250px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.awse-cart h2{
+
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.awse-cart p{
+    text-align: center;
+    padding-bottom: 10px;
+
+}

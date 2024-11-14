@@ -14,6 +14,7 @@
     background-color:#641566;
     border: 1px solid #641566;
     padding-left: 0px;
+    max-width: 100%;
     /* padding-right: 20px; */
    
    
@@ -26,6 +27,11 @@
   padding-left: 7px;
   padding-right: 7px;
     
+}
+
+.icon-hover:hover{
+
+  background-color: black;
 }
 
 @media screen and (max-width: 600px) {

@@ -18,12 +18,12 @@ const nav = () => {
 
         <div className='icon-l'>
         
-        <img src={insta} className='icon-l'  alt="" />
-        <img src={img2} className='icon-l' alt="" />
-        <img src={img3} className='icon-l' alt="" />
-        <img src={img4} className='icon-l' alt="" />
-        <img src={img5} className='icon-l' alt="" />
-        <img src={img6}  className='icon-l' alt="" />
+        <img src={insta} className='icon-l icon-hover'  alt="" />
+        <img src={img2} className='icon-l icon-hover' alt="" />
+        <img src={img3} className='icon-l icon-hover' alt="" />
+        <img src={img4} className='icon-l icon-hover' alt="" />
+        <img src={img5} className='icon-l icon-hover' alt="" />
+        <img src={img6}  className='icon-l icon-hover' alt="" />
        
         </div>
 

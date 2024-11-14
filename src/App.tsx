@@ -12,6 +12,7 @@ import Advantage from './Advantage/Advantage'
 import Footer from './Footer/Footer'
 
 import Faq1 from './TestFAQ/Faq1'
+// import Testawesome from './TestAwesome/Testawesome'
 
 // import './App.css'
 
@@ -38,6 +39,8 @@ function App() {
       {/* <Faq /> */}
       <Faq1 />
       <Footer />
+
+      {/* <Testawesome /> */}
 
        
 
